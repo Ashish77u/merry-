@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {}
+
+/* ======== hero section ========= */
+#landingPage {
+    background-image: url(./chirstmas/santa.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 45px 120px 0;
+    position: relative;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+#navBar .logo {
+    width: 69px;
+    height: 70px;
+}
+
+#navBar .logoColor {
+    font-size: 25px;
+}
+
+#navBar .logoColorBlack {
+    color: black;
+}
+
+#navBar .logoColorGreen {
+    color: green;
+}
+
+#navBar div {
+    display: flex;
+    gap: 72px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#navBar ul li a {
+    color: black;
+}
+
+#landingPage h1 {
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 122px;
+    line-height: 207px;
+    color: #FFFFFF;
+    letter-spacing: 7px;
+    text-shadow: 4px 6px 4px rgb(0 0 0 / 52%);
+    top: 93px;
+    position: relative;
+}
+
+.btn {
+    background: linear-gradient(122.19deg, #FFFFFF 28.08%, rgba(255, 255, 255, 0) 109.17%);
+    border: 0.8px solid #BCBCBC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 17.7399px 0px;
+    width: 138px;
+    height: 51.48px;
+    filter: drop-shadow(4px 7px 7px rgba(0, 0, 0, 0.7));
+    font-size: 1.5rem;
+    position: absolute;
+    right: 80px;
+    bottom: 46px;
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+
+.btn:hover:active {
+    transform: scale(1);
+}
+
+/* ============ about section ============= */
+#heroSection {
+    background-image: url(./chirstmas/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 45px 120px 0;
+    position: relative;
+
+}
+
+.header {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: 'Sancreek';
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+
+.para {
+    position: relative;
+    z-index: 100;
+    font-size: 1.5rem;
+    width: 77%;
+}
+
+.imgFloat {
+    position: absolute;
+    right: 63px;
+    top: 41px;
+}
+
+.imgTree {
+    width: 600px;
+    height: 700px;
+    opacity: 90%;
+}
+
+/* =========== login ========= */
+#loginSection {
+    background-image: url(./chirstmas/background2.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 45px 120px 0;
+    position: relative;
+
+}
+
+.validation{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 66px;
+    margin-left: 50px;
+    width: 555px;
+    height: 390px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2.8px solid #FFFFFF;
+    backdrop-filter: blur(7px);
+    border-radius: 35px;
+    padding: 16px 20px;
+}
+
+.validation div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3rem;
+    /* margin: 10px 0; */
+    padding: 2% 4%;
+    margin: auto;
+   
+    
+}
+.validation input{
+    width: 400px;
+    height: 45px;
+    border-radius: 11px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+}
+.sumbit{
+    background: linear-gradient(122.19deg, #FFFFFF 28.08%, rgba(255, 255, 255, 0) 109.17%);
+    border: 0.8px solid #BCBCBC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 11px;
+    margin: auto;
+    width: 130px;
+    height: 40px;
+    filter: drop-shadow(4px 7px 7px rgba(0, 0, 0, 0.7));
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+
+.sumbit:hover:active {
+    transform: scale(1);
+}
+.imgSanta{
+    width: 639px;
+    height: 694px;
+}
+
+/* ========== feedback ======== */
+/* .validation{
+    padding: 50px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+} */
