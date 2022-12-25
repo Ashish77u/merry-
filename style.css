@@ -153,6 +153,8 @@ body {}
     backdrop-filter: blur(7px);
     border-radius: 35px;
     padding: 16px 20px;
+    position: absolute;
+    z-index: 1;
 }
 
 .validation div{
@@ -198,10 +200,3 @@ body {}
     height: 694px;
 }
 
-/* ========== feedback ======== */
-/* .validation{
-    padding: 50px;
-    line-height: 1.5;
-    display: flex;
-    justify-content: center;
-} */
